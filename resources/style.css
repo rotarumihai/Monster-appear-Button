@@ -1,0 +1,29 @@
+body {
+    /*border: 3px solid black;*/
+    width: 90%;
+    height: 90%;
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/03/17/57/flowers-1795486_1280.jpg");
+}
+
+button {
+
+    color: blue;
+
+}
+
+button:hover {
+
+    color: whitesmoke;
+    background-color: red;
+    
+}
+
+button:hover span {
+  display: none
+}
+
+button:hover:before {
+
+
+content: "STOP NOW!";
+}
